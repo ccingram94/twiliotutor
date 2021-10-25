@@ -12,7 +12,7 @@ export default function AuthButton(props) {
         <Link href="/profile">
           <div className="bg-transparent hover:bg-blue-900 ease-linear transition-all border border-blue-300 hover:border-transparent py-2 px-4 rounded">
               <button className="flex flex-row flex-wrap uppercase text-blue-300 hover:text-blue-100 py-1 px-1">
-                  <h1>my profile <AcademicCap /> </h1>
+                  <h1>my profile <AcademicCap className="h-6 w-6" /> </h1>
               </button>
           </div>
         </Link>
