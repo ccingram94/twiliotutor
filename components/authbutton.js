@@ -11,7 +11,7 @@ export default function AuthButton(props) {
       return (
         <Link href="/profile">
           <div className="bg-transparent hover:bg-blue-900 ease-linear transition-all border border-blue-300 hover:border-transparent py-2 px-2 rounded">
-              <button className="flex flex-row flex-wrap uppercase text-blue-300 hover:text-blue-100 py-1 px-1">
+              <button className="flex flex-row flex-wrap uppercase text-blue-300 hover:text-blue-100 py-1 px-1 text-xl">
                   <h1>my profile</h1>
                   <AcademicCap className="h-6 w-6" /> 
               </button>
@@ -23,7 +23,7 @@ export default function AuthButton(props) {
     return (
       <>
       <div className="bg-transparent hover:bg-blue-900 ease-linear transition-all border border-blue-300 hover:border-transparent py-2 px-2 rounded">
-          <button onClick={signIn} className="uppercase text-blue-300 hover:text-white text-center justify-center items-center">
+          <button onClick={signIn} className="uppercase text-blue-300 hover:text-white text-center justify-center items-center text-xl">
             <h1> sign in </h1>
             <AcademicCap className="h-6 w-6" />
           </button>
