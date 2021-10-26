@@ -14,4 +14,4 @@ This tutoring app based on the Next.js framework (React) provides video conferen
 
 ⭐️ Tailwind CSS
 
-⭐️ Twilio Video API
+⭐️ Twilio Video API (Serverless!)

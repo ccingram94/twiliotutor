@@ -16,10 +16,18 @@ const Home = () => {
       </Head>
       <Navbar/>
       <main className="heropattern mx-auto w-full min-h-screen">
-        <div className="flex flex-wrap mx-auto items-center justify-center">
-          <h1>hello world</h1>
+        <div className="flex flex-wrap mx-auto items-center justify-center pt-32">
+          <div className="container mx-auto items-center justify-center bg-indigo-200 rounded-xl px-12 py-12">
+            <h1 className="text-indigo-900 font-bold text-center text-3xl">welcome back</h1>
+            <h1 className="text-indigo-900 font-bold text-center text-3xl">{session.user?.name}</h1>
+          </div>
         </div>
-        <button>hello world</button>
+        <div className="flex flex-wrap mx-auto items-center justify-center pt-6">
+          <div className="container mx-auto items-center justify-center bg-indigo-200 rounded-xl px-12 py-12">
+            <h1 className="text-indigo-900 font-bold text-center text-3xl">schedule</h1>
+            <h1 className="text-indigo-900 font-bold text-center text-xl">hmmm... there doesn't seem to be anything here</h1>
+          </div>
+        </div>
       </main>
       <Footer />
     </div>

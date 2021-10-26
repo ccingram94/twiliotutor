@@ -14,7 +14,7 @@ export default function Hero(props) {
     <>
     <section className="header relative pt-16 items-center flex w-full min-h-screen bg-opacity-100">
       <div className="w-full min-h-screen bg-gradient-to-r bg-opacity-25 from-green-400 to-blue-500 via-blue-400 bg-opacity-25">
-        <div className="container mx-auto items-center flex flex-wrap">
+        <div className="container mx-auto items-center flex flex-wrap w-full">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32">
               <h2 className="font-bold text-6xl text-blue-100 px-12 mt-12">twilio tutor</h2>
@@ -26,6 +26,9 @@ export default function Hero(props) {
                 </div>
               </div>
               <h3 className="font-semibold text-blue-200 px-12 mt-6">log in to see your your profile and test out the classroom</h3>
+              <div>
+                
+              </div>
             </div>
           </div>
         </div>

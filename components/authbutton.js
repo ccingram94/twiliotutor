@@ -10,18 +10,23 @@ export default function AuthButton(props) {
     if (status === "authenticated") {
       return (
         <Link href="/profile">
-          <div className="bg-transparent hover:bg-blue-900 ease-linear transition-all border border-blue-300 hover:border-transparent py-2 px-4 rounded">
+          <div className="bg-transparent hover:bg-blue-900 ease-linear transition-all border border-blue-300 hover:border-transparent py-2 px-2 rounded">
               <button className="flex flex-row flex-wrap uppercase text-blue-300 hover:text-blue-100 py-1 px-1">
-                  <h1>my profile <AcademicCap className="h-6 w-6" /> </h1>
+                  <h1>my profile</h1>
+                  <AcademicCap className="h-6 w-6" /> 
               </button>
           </div>
         </Link>
+        
       )
     }
     return (
       <>
-      <div className="bg-transparent hover:bg-blue-900 ease-linear transition-all border border-blue-300 hover:border-transparent py-2 px-4 rounded">
-          <button onClick={signIn} className="uppercase text-blue-300 hover:text-white text-center justify-center items-center text-3xl">sign in</button>
+      <div className="bg-transparent hover:bg-blue-900 ease-linear transition-all border border-blue-300 hover:border-transparent py-2 px-2 rounded">
+          <button onClick={signIn} className="uppercase text-blue-300 hover:text-white text-center justify-center items-center text-3xl">
+            <h1> sign in </h1>
+            <AcademicCap className="h-6 w-6" />
+          </button>
       </div>
       </>
     );
