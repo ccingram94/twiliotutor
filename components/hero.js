@@ -20,7 +20,7 @@ export default function Hero(props) {
               <h2 className="font-bold text-6xl text-blue-100 px-12 mt-12">twilio tutor</h2>
               <h3 className="font-semibold text-3xl text-blue-200 px-12 mt-12">explore easy video tutoring with twilio</h3>
               <div className="flex flex-row flex-wrap justify-start font-semibold px-2 py-2 max-w-full">
-                <div className=" flex flex-row bg-blue-100 rounded-xl space-x-2 px-2 py-2">
+                <div className=" flex flex-row bg-blue-100 rounded-xl space-x-2 px-12 py-2">
                   <AuthButton />
                   <ClassroomButton />
                 </div>
