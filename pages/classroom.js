@@ -33,7 +33,7 @@ const Classroom = () => {
               <div className="container mx-auto items-center justify-center bg-indigo-200 rounded-xl px-12 py-12">
                 <h1 className="text-indigo-900 font-bold text-center text-3xl uppercase">teacher</h1>
                 <div id="video-div"></div>
-                <button onClick={startVideo} id="try-video-button">Video On!</button>
+                <button id="try-video-button">Video On!</button>
                 <button id="stop-video-button">Video Off!</button>
               </div>
             </div>
